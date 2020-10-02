@@ -48,7 +48,8 @@ int main()
 	static float time;
 
 	// Load Lena Image
-	Mat img = imread("C:/images/opencv_images/lena.jpg");
+	//Mat img = imread("D:/sglee/images/opencv_images/lena.jpg");
+	Mat img = imread("D:/images/opencv_images/lena.jpg");
 	imshow("image", img);
 	waitKey();
 
